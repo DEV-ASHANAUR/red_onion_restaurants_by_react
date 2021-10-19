@@ -1,0 +1,58 @@
+.food-filter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-filter button{
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 15px;
+}
+.active-item{
+    color: red;
+    border-bottom: 3px solid red!important;
+}
+.img-wrapper {
+    width: 208px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.custom-card{
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    position: relative;
+}
+.pill-item{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    background: red;
+    color: #fff;
+    font-size: 15px;
+    padding: 3px 8px;
+    border-radius: 25px;
+}
+
+.custom-card:hover{
+    box-shadow: 0px 3px 23px grey;
+    border-radius: 5px;
+}
+
+.order-btn {
+    background: red;
+    color: #fff;
+    font-size: 15px;
+    padding: 7px 14px;
+    border: 2px solid #7e5252;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+.order-btn:hover{
+    background: rgb(199, 57, 57);
+}

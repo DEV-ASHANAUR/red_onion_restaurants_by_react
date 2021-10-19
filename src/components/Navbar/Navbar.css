@@ -1,0 +1,16 @@
+.btn-sign-up {
+    background: red;
+    border: 1px solid #6e5b5b;
+    padding: 9px 12px;
+    color: #fff;
+    border-radius: 25px;
+}
+.btn-sign-up:hover{
+    background: rgb(233, 51, 51);
+    
+}
+.log-in-btn {
+    font-size: 20px;
+    padding: 16px;
+    font-weight: 700;
+}
