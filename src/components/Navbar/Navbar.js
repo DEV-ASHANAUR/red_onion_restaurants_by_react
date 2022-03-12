@@ -15,12 +15,12 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                     <li className="nav-item pt-3 px-4">
-                        <a href="/" className='position-relative'>
+                        <NavLink to="/" className='position-relative'>
                             <span class="material-icons">
                                 shopping_cart
                             </span>
                             <span className='position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger'>5</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li className="nav-item">
                     <NavLink className="nav-link log-in-btn" aria-current="page" to='/login'>Log In</NavLink>
@@ -28,9 +28,7 @@ const Navbar = () => {
                     <li className="nav-item">
                     <NavLink className="nav-link" to="/signup"><button className="btn-sign-up">Sign Up</button></NavLink>
                     </li>
-                    
                 </ul>
-                
                 </div>
             </div>
         </nav>
